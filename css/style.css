@@ -6,9 +6,361 @@
     --taxt-desc:#757575;
     --foter-begraunt:#2F303A;
     --foter-namber:rgba(255, 255, 255, 0.60);
-
-
- 
-    
+    --logo-color :#000;
 }
 
+body {
+
+font-family: "Roboto";
+   
+   };
+
+   .header-logo{
+    color: var(--logo-color);
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+   }
+
+   .header-web {
+    color: var(--accent-color);
+
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+
+   }
+
+   .nav-link{
+    color: var(--taxt-color);
+
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+   }
+
+   .nav-link{
+    color: var(--taxt-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+   }
+
+   .nav-link{
+    color: var(--taxt-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+   }
+
+   .header-link{
+    color: var(--accent-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+   }
+
+   .header-link{
+    color: var(--taxt-desc);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+   }
+
+   .hero-title{
+    color: var(--begraunt-main);
+
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+   }
+
+   .hero-btn{
+    color: var(--begraunt-main);
+
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.86;
+letter-spacing: 0.96px;
+   }
+
+   .servise-title{
+    color: var(--taxt-color);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+   }
+
+  .servise-text{
+    color: var(--taxt-desc);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+  } 
+
+  .servise-title{
+    color: var(--taxt-color);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+  }
+
+  .servise-text{
+    color: var(--taxt-desc);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+  } 
+
+  .servise-title{
+    color: var(--taxt-color);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+  }
+
+  .servise-text{
+    color: var(--taxt-desc);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+  }
+
+  .servise-title{
+    color: var(--taxt-color);
+
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+  }
+  
+  .servise-text{
+    color: var(--taxt-desc);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+  }
+
+  .work-title{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+  }
+
+  .work-img{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+  }
+
+  .work-img{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+  }
+
+  .work-img{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+  }
+
+  .teaam-title{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+  }
+
+  .teaam-img{
+    width: 270px;
+height: 260px;
+flex-shrink: 0;
+  }
+
+  .teaam-name{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-text{
+    color: var(--taxt-desc);
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-img{
+    width: 270px;
+height: 260px;
+flex-shrink: 0;
+  }
+
+  .teaam-name{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-text{
+    color: var(--taxt-desc);
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-img{
+    width: 270px;
+height: 260px;
+flex-shrink: 0;
+  }
+
+  .teaam-name{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-text{
+    color: var(--taxt-desc);
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-img{
+    width: 270px;
+height: 260px;
+flex-shrink: 0;
+  }
+
+  .teaam-name{
+    color: var(--taxt-color);
+
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+  .teaam-text{
+    color: var(--taxt-desc);
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+  }
+
+ .footer-logo{
+    color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+ }
+
+.footer-web{
+    color: var(--accent-color);
+
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.address-link{
+    color: var(--begraunt-main);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.42px;
+}
+
+.footer-link{
+    color: var(rgba(255, 255, 255, 0.60));
+
+font-size: 14px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.42px;
+}
+
+.footer-link{
+    color: var(rgba(255, 255, 255, 0.60));
+
+font-size: 14px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.42px;
+}
